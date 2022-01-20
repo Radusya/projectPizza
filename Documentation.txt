@@ -1,0 +1,2 @@
+Błądy:
+Błąd(1) - Nie znaliezono file "setup.txt"
