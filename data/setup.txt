@@ -1,2 +1,2 @@
-NAME =Restaurant XYZ
+NAME = ItalianPizza
 DATA =

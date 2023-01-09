@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Restaurant_RadulsFood.dir/code/main.cpp.obj"
-  "Restaurant_RadulsFood.exe"
-  "Restaurant_RadulsFood.exe.manifest"
+  "CMakeFiles/Restaurant_RadulsFood.dir/code/main.cpp.o"
+  "CMakeFiles/Restaurant_RadulsFood.dir/code/main.cpp.o.d"
+  "Restaurant_RadulsFood"
   "Restaurant_RadulsFood.pdb"
-  "libRestaurant_RadulsFood.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

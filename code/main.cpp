@@ -5,7 +5,7 @@ using namespace std;
 
 string getFromSetup(const string& klucz)
 {
-    string path = "..\\data\\setup.txt";
+    string path = "../data/setup.txt";
     string save;
 
     ifstream name;
@@ -30,17 +30,30 @@ void drawLine(int width, bool endlT){
     for(int i=0; i <= width; i++){
         cout << "-";
     }
-    if(endlT == true){
+    if(endlT){
         cout << endl;
     }
 }
 
+void start(){
+    drawLine(20, true);
+    cout << getFromSetup("NAME") << endl;
+    drawLine(20, true);
+    cout << "Witaj w programie Restauracji 1.0\n" << endl;
+    cout << "Opcje: " << endl;
+    cout << "[0] Zloz zamowienie" << endl;
+    cout << "[1] Historia zamowien" << endl;
+    cout << "[2] Historia zamowien dla danego dnia" << endl;
+    cout << "[3] Zamknij program\n" << endl;
+    cout << "Prosze podac opcje: " << endl;
+}
+
 
  void menu(){
-     string pathPizza = "..\\data\\menu\\pizza.txt";
-     string pathBurgers = "..\\data\\menu\\burgers.txt";
-     string pathNapoje = "..\\data\\menu\\napoje.txt";
-     string pathAlkohole = "..\\data\\menu\\alkohole.txt";
+     string pathPizza = "../data/menu/pizza.txt";
+     string pathBurgers = "../data/menu/burgers.txt";
+     string pathNapoje = "../data/menu/napoje.txt";
+     string pathAlkohole = "../data/menu/alkohole.txt";
 
      string pizza, burgers, napoje, alkohole;
 
@@ -53,10 +66,12 @@ void drawLine(int width, bool endlT){
      if(!filePizza){
          cout << "Blad(2)";
      } else{
-         while(!filePizza.eof()){
-             getline(filePizza, pizza);
-             cout << pizza << endl;
+         while(getline(filePizza, pizza)) {
+             cout << "|     ";
+             cout << pizza;
+             cout << "      |" << endl;
          }
+         cout << "|                                                  |" << endl;
          filePizza.close();
      }
 
@@ -65,10 +80,12 @@ void drawLine(int width, bool endlT){
      if(!fileBurgers){
          cout << "Blad(2)";
      } else{
-         while(!fileBurgers.eof()){
-             getline(fileBurgers, alkohole);
-             cout << alkohole << endl;
+         while(getline(fileBurgers, burgers)) {
+             cout << "|     ";
+             cout << burgers;
+             cout << "      |" << endl;
          }
+         cout << "|                                                  |" << endl;
          fileBurgers.close();
      }
 
@@ -77,10 +94,12 @@ void drawLine(int width, bool endlT){
      if(!fileNapoje){
          cout << "Blad(2)";
      } else{
-         while(!fileNapoje.eof()){
-             getline(fileNapoje, alkohole);
-             cout << alkohole << endl;
+         while(getline(fileNapoje, napoje)) {
+             cout << "|     ";
+             cout << napoje;
+             cout << "      |" << endl;
          }
+         cout << "|                                                  |" << endl;
          fileNapoje.close();
      }
 
@@ -89,31 +108,19 @@ void drawLine(int width, bool endlT){
      if(!fileAlkohole){
          cout << "Blad(2)";
      } else{
-         while(!fileAlkohole.eof()){
-             getline(fileAlkohole, alkohole);
-             cout << alkohole << endl;
+         while(getline(fileAlkohole, alkohole)) {
+             cout << "|     ";
+             cout << alkohole;
+             cout << "      |" << endl;
          }
          fileAlkohole.close();
      }
+     drawLine(51, false);
 }
 
 
 
 
 int main() {
-    drawLine(20, true);
-    cout << getFromSetup("NAME") << endl;
-    drawLine(20, true);
-    cout << "Witaj w programie Restauracji 1.0\n" << endl;
-    cout << "Opcje: " << endl;
-    cout << "[0] Zloz zamowienie" << endl;
-    cout << "[1] Historia zamowien" << endl;
-    cout << "[2] Historia zamowien dla danego dnia" << endl;
-    cout << "[3] Zamknij program\n" << endl;
-    cout << "Prosze podac opcje: " << endl;
-
-
-
-
-    return 0;
+  start();
 }
