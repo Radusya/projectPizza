@@ -83,17 +83,49 @@ CMakeFiles/projectPizza.dir/code/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectPizza.dir/code/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/radusya/Documents/Projects/projectPizza/code/main.cpp -o CMakeFiles/projectPizza.dir/code/main.cpp.s
 
+CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.o: CMakeFiles/projectPizza.dir/flags.make
+CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.o: /Users/radusya/Documents/Projects/projectPizza/code/helpFunctions.cpp
+CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.o: CMakeFiles/projectPizza.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/radusya/Documents/Projects/projectPizza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.o -MF CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.o.d -o CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.o -c /Users/radusya/Documents/Projects/projectPizza/code/helpFunctions.cpp
+
+CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/radusya/Documents/Projects/projectPizza/code/helpFunctions.cpp > CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.i
+
+CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/radusya/Documents/Projects/projectPizza/code/helpFunctions.cpp -o CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.s
+
+CMakeFiles/projectPizza.dir/code/takeOrder.cpp.o: CMakeFiles/projectPizza.dir/flags.make
+CMakeFiles/projectPizza.dir/code/takeOrder.cpp.o: /Users/radusya/Documents/Projects/projectPizza/code/takeOrder.cpp
+CMakeFiles/projectPizza.dir/code/takeOrder.cpp.o: CMakeFiles/projectPizza.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/radusya/Documents/Projects/projectPizza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/projectPizza.dir/code/takeOrder.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectPizza.dir/code/takeOrder.cpp.o -MF CMakeFiles/projectPizza.dir/code/takeOrder.cpp.o.d -o CMakeFiles/projectPizza.dir/code/takeOrder.cpp.o -c /Users/radusya/Documents/Projects/projectPizza/code/takeOrder.cpp
+
+CMakeFiles/projectPizza.dir/code/takeOrder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectPizza.dir/code/takeOrder.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/radusya/Documents/Projects/projectPizza/code/takeOrder.cpp > CMakeFiles/projectPizza.dir/code/takeOrder.cpp.i
+
+CMakeFiles/projectPizza.dir/code/takeOrder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectPizza.dir/code/takeOrder.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/radusya/Documents/Projects/projectPizza/code/takeOrder.cpp -o CMakeFiles/projectPizza.dir/code/takeOrder.cpp.s
+
 # Object files for target projectPizza
 projectPizza_OBJECTS = \
-"CMakeFiles/projectPizza.dir/code/main.cpp.o"
+"CMakeFiles/projectPizza.dir/code/main.cpp.o" \
+"CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.o" \
+"CMakeFiles/projectPizza.dir/code/takeOrder.cpp.o"
 
 # External object files for target projectPizza
 projectPizza_EXTERNAL_OBJECTS =
 
 projectPizza: CMakeFiles/projectPizza.dir/code/main.cpp.o
+projectPizza: CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.o
+projectPizza: CMakeFiles/projectPizza.dir/code/takeOrder.cpp.o
 projectPizza: CMakeFiles/projectPizza.dir/build.make
 projectPizza: CMakeFiles/projectPizza.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/radusya/Documents/Projects/projectPizza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable projectPizza"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/radusya/Documents/Projects/projectPizza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable projectPizza"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projectPizza.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

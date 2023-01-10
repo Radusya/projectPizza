@@ -80,7 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/radusya/Documents/Projects/projectPizza/code/helpFunctions.cpp">
+			<Option target="projectPizza"/>
+		</Unit>
+		<Unit filename="/Users/radusya/Documents/Projects/projectPizza/code/helpFunctions.h">
+			<Option target="projectPizza"/>
+		</Unit>
 		<Unit filename="/Users/radusya/Documents/Projects/projectPizza/code/main.cpp">
+			<Option target="projectPizza"/>
+		</Unit>
+		<Unit filename="/Users/radusya/Documents/Projects/projectPizza/code/main.h">
+			<Option target="projectPizza"/>
+		</Unit>
+		<Unit filename="/Users/radusya/Documents/Projects/projectPizza/code/takeOrder.cpp">
+			<Option target="projectPizza"/>
+		</Unit>
+		<Unit filename="/Users/radusya/Documents/Projects/projectPizza/code/takeOrder.h">
 			<Option target="projectPizza"/>
 		</Unit>
 		<Unit filename="/Users/radusya/Documents/Projects/projectPizza/CMakeLists.txt">

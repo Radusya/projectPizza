@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/radusya/Documents/Projects/projectPizza/code/helpFunctions.cpp" "CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.o" "gcc" "CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.o.d"
   "/Users/radusya/Documents/Projects/projectPizza/code/main.cpp" "CMakeFiles/projectPizza.dir/code/main.cpp.o" "gcc" "CMakeFiles/projectPizza.dir/code/main.cpp.o.d"
+  "/Users/radusya/Documents/Projects/projectPizza/code/takeOrder.cpp" "CMakeFiles/projectPizza.dir/code/takeOrder.cpp.o" "gcc" "CMakeFiles/projectPizza.dir/code/takeOrder.cpp.o.d"
   )
 
 # Targets to which this target links.

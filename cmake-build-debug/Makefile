@@ -129,6 +129,30 @@ projectPizza/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectPizza.dir/build.make CMakeFiles/projectPizza.dir/build
 .PHONY : projectPizza/fast
 
+code/helpFunctions.o: code/helpFunctions.cpp.o
+.PHONY : code/helpFunctions.o
+
+# target to build an object file
+code/helpFunctions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectPizza.dir/build.make CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.o
+.PHONY : code/helpFunctions.cpp.o
+
+code/helpFunctions.i: code/helpFunctions.cpp.i
+.PHONY : code/helpFunctions.i
+
+# target to preprocess a source file
+code/helpFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectPizza.dir/build.make CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.i
+.PHONY : code/helpFunctions.cpp.i
+
+code/helpFunctions.s: code/helpFunctions.cpp.s
+.PHONY : code/helpFunctions.s
+
+# target to generate assembly for a file
+code/helpFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectPizza.dir/build.make CMakeFiles/projectPizza.dir/code/helpFunctions.cpp.s
+.PHONY : code/helpFunctions.cpp.s
+
 code/main.o: code/main.cpp.o
 .PHONY : code/main.o
 
@@ -153,6 +177,30 @@ code/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectPizza.dir/build.make CMakeFiles/projectPizza.dir/code/main.cpp.s
 .PHONY : code/main.cpp.s
 
+code/takeOrder.o: code/takeOrder.cpp.o
+.PHONY : code/takeOrder.o
+
+# target to build an object file
+code/takeOrder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectPizza.dir/build.make CMakeFiles/projectPizza.dir/code/takeOrder.cpp.o
+.PHONY : code/takeOrder.cpp.o
+
+code/takeOrder.i: code/takeOrder.cpp.i
+.PHONY : code/takeOrder.i
+
+# target to preprocess a source file
+code/takeOrder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectPizza.dir/build.make CMakeFiles/projectPizza.dir/code/takeOrder.cpp.i
+.PHONY : code/takeOrder.cpp.i
+
+code/takeOrder.s: code/takeOrder.cpp.s
+.PHONY : code/takeOrder.s
+
+# target to generate assembly for a file
+code/takeOrder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectPizza.dir/build.make CMakeFiles/projectPizza.dir/code/takeOrder.cpp.s
+.PHONY : code/takeOrder.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... projectPizza"
+	@echo "... code/helpFunctions.o"
+	@echo "... code/helpFunctions.i"
+	@echo "... code/helpFunctions.s"
 	@echo "... code/main.o"
 	@echo "... code/main.i"
 	@echo "... code/main.s"
+	@echo "... code/takeOrder.o"
+	@echo "... code/takeOrder.i"
+	@echo "... code/takeOrder.s"
 .PHONY : help
 
 

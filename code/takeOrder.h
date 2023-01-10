@@ -5,4 +5,7 @@
 #ifndef PROJECTPIZZA_TAKEORDER_H
 #define PROJECTPIZZA_TAKEORDER_H
 
+void menu();
+void takeOrder();
+
 #endif //PROJECTPIZZA_TAKEORDER_H

@@ -5,4 +5,6 @@
 #ifndef PROJECTPIZZA_MAIN_H
 #define PROJECTPIZZA_MAIN_H
 
+void start();
+
 #endif //PROJECTPIZZA_MAIN_H

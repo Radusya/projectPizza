@@ -1,4 +1,4 @@
 Burgers                           Price
-6. Chiken Burger..................10,99
-7. Bigburger......................15,99
-8. Cheeseburger...................13,99
+4. Chiken Burger..................10,99
+5. Bigburger......................15,99
+6. Cheeseburger...................13,99
